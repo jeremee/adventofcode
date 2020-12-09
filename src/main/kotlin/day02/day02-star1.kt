@@ -1,7 +1,7 @@
 import java.io.File
 
-fun main() {
-    val inputs = File("data/day2").readLines()
+fun main(vararg args: String) {
+    val inputs = File(args[0]).readLines()
 
     val count = inputs.count { input ->
         val (occurrences, letter, password) = input.split(" ")

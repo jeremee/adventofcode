@@ -1,8 +1,8 @@
 import java.io.File
 import java.lang.IllegalArgumentException
 
-fun main() {
-    val inputs = File("src/main/kotlin/day8/data").readLines()
+fun main(vararg args: String) {
+    val inputs = File(args[0]).readLines()
     val regexp = Regex("(.{3}) ([+-]{1})([0-9]+)")
 
     val instructions = inputs.map { input ->

@@ -1,7 +1,7 @@
 import java.io.File
 
-fun main() {
-    val inputs = File("src/main/kotlin/day3/input").readLines()
+fun main(vararg args: String) {
+    val inputs = File(args[0]).readLines()
     val width = inputs[0].length
     val speedsX = arrayOf(1, 3, 5, 7, width + 1)
     val speedsY = arrayOf(1, 1, 1, 1, 2)

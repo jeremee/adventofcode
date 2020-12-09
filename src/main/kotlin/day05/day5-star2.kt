@@ -1,7 +1,7 @@
 import java.io.File
 
-fun main() {
-    val inputs = File("src/main/kotlin/day5/data").readLines()
+fun main(vararg args: String) {
+    val inputs = File(args[0]).readLines()
     val sortedSeatIds = inputs
         .map { toSeatValue(it) }
         .sorted()

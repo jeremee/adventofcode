@@ -1,8 +1,8 @@
 import java.io.File
 import java.lang.IllegalArgumentException
 
-fun main() {
-    val inputs = File("src/main/kotlin/day5/data").readLines()
+fun main(vararg args: String) {
+    val inputs = File(args[0]).readLines()
     println(inputs.map { toSeatValue(it) }.max())
 }
 

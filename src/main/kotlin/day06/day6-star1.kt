@@ -1,7 +1,7 @@
 import java.io.File
 
-fun main() {
-    val inputs = File("src/main/kotlin/day6/data").readLines()
+fun main(vararg args: String) {
+    val inputs = File(args[0]).readLines()
 
     var answersCount = 0
     val answersFound = mutableSetOf<Char>()
