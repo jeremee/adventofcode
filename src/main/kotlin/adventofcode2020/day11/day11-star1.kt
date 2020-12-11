@@ -1,5 +1,5 @@
-import day11.MAP
-import day11.Pos
+import adventofcode2020.day11.MAP
+import adventofcode2020.day11.Pos
 import java.io.File
 
 fun main(vararg args: String) {
