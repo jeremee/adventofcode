@@ -1,2 +1,2 @@
-rootProject.name = "avent2020"
+rootProject.name = "adventofcode"
 

@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "advent.jeremy"
-version = "2020"
+version = "2021"
 
 repositories {
     mavenCentral()
