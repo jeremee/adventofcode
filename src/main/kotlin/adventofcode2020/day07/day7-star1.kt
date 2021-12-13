@@ -1,7 +1,7 @@
 import java.io.File
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines()
+    val inputs = File("data").readLines()
     val colorBagRegex = Regex("[0-9]+ ([a-z ]+) bag[s]*[.,]{1}")
 
     val map = mutableMapOf<String, List<String>>()

@@ -3,7 +3,7 @@ package adventofcode2021.day04
 import java.io.File
 
 fun main(vararg args: String) {
-    val lines = File(args[0]).readLines()
+    val lines = File("data").readLines()
 
     val numbers = lines.first().split(",").map(String::toInt)
 

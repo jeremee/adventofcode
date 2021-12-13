@@ -1,7 +1,7 @@
 import java.io.File
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines()
+    val inputs = File("data").readLines()
     val regexp = Regex("(.{3}) ([+-]{1})([0-9]+)")
 
     val instructions = inputs.map { input ->

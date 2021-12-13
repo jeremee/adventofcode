@@ -3,7 +3,7 @@ package adventofcode2021.day01
 import java.io.File
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines().map(String::toInt)
+    val inputs = File("data").readLines().map(String::toInt)
 
     val increase = inputs
             .windowed(2)

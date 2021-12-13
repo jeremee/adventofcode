@@ -1,7 +1,7 @@
 import java.io.File
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines()
+    val inputs = File("data").readLines()
     val initialPos = inputs.mapIndexed { y, line ->
         line.mapIndexed { x, char -> if (char == '#') Pos3D(x, y, 0) else null }
             .filterNotNull()

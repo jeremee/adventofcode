@@ -5,7 +5,7 @@ private val regexpMask = Regex("mask = ([X10]+)")
 private val regexpMem = Regex("mem\\[([0-9]+)\\] = ([0-9]+)")
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines()
+    val inputs = File("data").readLines()
 
     lateinit var mask: Mask2
     val values = mutableMapOf<Long, Long>()

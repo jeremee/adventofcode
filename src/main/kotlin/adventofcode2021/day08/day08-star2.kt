@@ -3,7 +3,7 @@ package adventofcode2021.day08
 import java.io.File
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines()
+    val inputs = File("data").readLines()
 
     println(inputs.map {
         val (coding, value) = it.split(" | ")

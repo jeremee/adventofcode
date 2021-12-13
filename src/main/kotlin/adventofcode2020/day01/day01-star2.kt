@@ -1,7 +1,7 @@
 import java.io.File
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines()
+    val inputs = File("data").readLines()
     val values = inputs.map(String::toInt)
 
     for (i in values.indices) {

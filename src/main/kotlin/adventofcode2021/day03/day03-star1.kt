@@ -3,7 +3,7 @@ package adventofcode2021.day03
 import java.io.File
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines().map { it.toCharArray() }
+    val inputs = File("data").readLines().map { it.toCharArray() }
 
     val count0 = MutableList(inputs.first().size, { 0 })
     val count1 = MutableList(inputs.first().size, { 0 })

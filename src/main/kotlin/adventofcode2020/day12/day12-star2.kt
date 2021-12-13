@@ -3,7 +3,7 @@ import java.io.File
 import kotlin.math.abs
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines()
+    val inputs = File("data").readLines()
 
     var ship = Ship2(0, 0, 10, 1)
     val instructions = inputs.map(::Instruction2)

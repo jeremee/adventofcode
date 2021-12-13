@@ -3,7 +3,7 @@ package adventofcode2021.day02
 import java.io.File
 
 fun main(vararg args: String) {
-    val commands = File(args[0]).readLines()
+    val commands = File("data").readLines()
             .map { it.split(" ") }
             .map { Command(it.first(), it.last().toInt()) }
 

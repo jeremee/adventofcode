@@ -3,7 +3,7 @@ package adventofcode2021.day02
 import java.io.File
 
 fun main(vararg args: String) {
-    val commands = File(args[0]).readLines()
+    val commands = File("data").readLines()
             .map { it.split(" ") }
             .map { Command(it.first(), it.last().toInt()) }
 
@@ -11,7 +11,7 @@ fun main(vararg args: String) {
     var x = 0
     var depth = 0
     commands.forEach {
-        when(it.direction) {
+        when (it.direction) {
             Command.Direction.up -> aim -= it.value
             Command.Direction.down -> aim += it.value
             Command.Direction.forward -> {

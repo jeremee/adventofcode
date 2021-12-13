@@ -4,7 +4,7 @@ import java.io.File
 import kotlin.math.abs
 
 fun main(vararg args: String) {
-    val crabs = File(args[0]).readLines().first().split(",").map(String::toInt)
+    val crabs = File("data").readLines().first().split(",").map(String::toInt)
 
     var minFuel = Int.MAX_VALUE
 

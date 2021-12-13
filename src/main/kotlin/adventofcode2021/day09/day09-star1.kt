@@ -3,7 +3,7 @@ package adventofcode2021.day09
 import java.io.File
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines()
+    val inputs = File("data").readLines()
             .map(String::toList)
             .map { it.map(Char::toString).map(String::toInt) }
 

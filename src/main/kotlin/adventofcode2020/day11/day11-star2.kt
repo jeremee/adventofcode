@@ -3,7 +3,7 @@ import adventofcode2020.day11.Pos
 import java.io.File
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines()
+    val inputs = File("data").readLines()
     val map = inputs.map(String::toCharArray).map(CharArray::toMutableList)
 
     val seatsToSwitch = mutableListOf<Pos>()

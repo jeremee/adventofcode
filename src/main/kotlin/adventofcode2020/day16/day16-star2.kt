@@ -2,7 +2,7 @@ import adventofcode2020.day16.Criterion
 import java.io.File
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines()
+    val inputs = File("data").readLines()
 
     val criteriaRegexp = Regex("(.*): ([0-9]+-[0-9]+) or ([0-9]+-[0-9]+)")
     val criteria = mutableListOf<Criterion>()

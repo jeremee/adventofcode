@@ -2,7 +2,7 @@ import java.io.File
 import java.lang.IllegalArgumentException
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines()
+    val inputs = File("data").readLines()
     println(inputs.map { toSeatValue(it) }.max())
 }
 

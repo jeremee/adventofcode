@@ -2,7 +2,7 @@ import java.io.File
 import java.lang.IllegalStateException
 
 fun main(vararg args: String) {
-    val inputs = File(args[0]).readLines()
+    val inputs = File("data").readLines()
     val preambleSize = 25
 
     val values = inputs.map(String::toLong)
