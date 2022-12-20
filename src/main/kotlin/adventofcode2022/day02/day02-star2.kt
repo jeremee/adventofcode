@@ -1,6 +1,6 @@
-package adventofcode2022.day01
+package adventofcode2022.day02
 
-import adventofcode2022.day01.Result.*
+import adventofcode2022.day02.Result.*
 import java.io.File
 
 fun main(vararg args: String) {

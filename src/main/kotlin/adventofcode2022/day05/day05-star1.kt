@@ -1,4 +1,4 @@
-package adventofcode2022.day01
+package adventofcode2022.day05
 
 import java.io.File
 
